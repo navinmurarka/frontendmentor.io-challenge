@@ -93,9 +93,10 @@ body{
   }
   .image-container{
     width : 95vw;
-    height: 480*95vw/654;
+    //height: 480*95vw/654;
+    height: 69.7247706422vw;
     background: url('images/image-header-mobile.jpg'),hsl(277,64%,61%) ;
-    background-blend-mode: luminosity;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
